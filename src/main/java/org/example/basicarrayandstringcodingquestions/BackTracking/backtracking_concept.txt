@@ -1,0 +1,31 @@
+Awesome! 🔁✨ Backtracking is one of the most powerful and beautiful techniques in DSA — especially for solving problems involving choices, combinations, and constraints (like Sudoku, N-Queens, subsets, permutations).
+
+🎯 What Is Backtracking?
+Backtracking is a recursive technique for solving problems where we try out all possible options and "backtrack" if a solution doesn’t work.
+
+It’s like:
+Try ➡️ Fail ➡️ Undo ➡️ Try Next
+
+✅ Core Idea:
+Choose
+
+Explore (recursively)
+
+Undo (backtrack)
+
+🧱 Template for Backtracking
+java
+Copy
+Edit
+void backtrack(parameters) {
+    if (base condition is met) {
+        add result;
+        return;
+    }
+
+    for (choice in all possible choices) {
+        make a choice;
+        backtrack(...);      // explore
+        undo the choice;     // backtrack
+    }
+}

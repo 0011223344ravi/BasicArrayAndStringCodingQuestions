@@ -1,0 +1,71 @@
+🌳 Tree Learning Plan (Structured & Practical)
+✅ Step 1: Understand What a Tree Is
+Tree is a hierarchical data structure.
+
+Root → topmost node
+
+Child, Parent, Leaf, Subtree
+
+Binary Tree → max 2 children per node
+
+Binary Search Tree (BST) → left < root < right
+
+✅ Step 2: Learn Tree Terminologies
+Term	Description
+Root	The top node
+Leaf	Node with no children
+Height	Longest path from root to leaf
+Depth	Distance from root to that node
+Balanced Tree	Left & right subtree heights differ ≤ 1
+Full Tree	Every node has 0 or 2 children
+Complete Tree	All levels filled except possibly last
+
+✅ Step 3: Start with Tree Traversals
+🔁 You must know these:
+
+🔹 Depth-First Traversal (DFS)
+Inorder → Left → Root → Right
+
+Preorder → Root → Left → Right
+
+Postorder → Left → Right → Root
+
+🔹 Breadth-First Traversal (BFS)
+Level order using a Queue
+
+✅ Step 4: Core Tree Problems
+Problem	Traversal/Concept
+Max Depth of Tree	DFS
+Invert Binary Tree	Recursion
+Validate BST	Inorder + range
+Lowest Common Ancestor	Recursion
+Same Tree / Symmetric Tree	DFS
+Diameter of Binary Tree	DFS with height
+
+✅ Java Class Template for TreeNode
+java
+Copy
+Edit
+public class TreeNode {
+    int val;
+    TreeNode left, right;
+
+    TreeNode(int val) {
+        this.val = val;
+    }
+}
+🔥 Suggested LeetCode Problems (Start with Easy)
+Problem	Link
+104. Maximum Depth of Binary Tree	🔗 LeetCode #104
+101. Symmetric Tree	🔗 LeetCode #101
+100. Same Tree	🔗 LeetCode #100
+226. Invert Binary Tree	🔗 LeetCode #226
+102. Binary Tree Level Order Traversal	🔗 LeetCode #102
+
+Would you like to:
+
+Begin by visualizing a simple tree and traversals?
+
+Or jump directly to solving Max Depth of Binary Tree (LeetCode 104)?
+
+Let’s grow this tree of knowledge together 🌱💪
