@@ -67,7 +67,7 @@ public class PacificAtlantic {
         for (List<Integer> cell : result) {
             System.out.println(cell);
         }
-    
+
 
     }
 }
