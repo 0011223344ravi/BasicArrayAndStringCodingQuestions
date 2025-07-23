@@ -75,14 +75,16 @@ public class GraphUsingMatrix {
         graph.addEdge(3, 4);
 
         graph.printMatrix();
+        System.out.println("...............");
 
         int [][] adjMatrix  ={ {0, 1, 0, 0, 1},
                 {1, 0, 1, 1, 1} ,
                 {0 ,1, 0, 1, 0},
                 {0, 1, 1, 0, 1},
                 {1, 1, 0, 1, 0} };
-       // bfs(adjMatrix,1);
+        bfs(adjMatrix,0);
         boolean [] visited = new boolean[adjMatrix.length];
+        System.out.println(",......................,");
         dfs(adjMatrix,visited,0);
     }
 }
